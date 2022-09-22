@@ -1,0 +1,473 @@
+#container{
+    display: flex;
+    background-color:  #f7f4f2;
+    border: 1px solid black;
+    width: 100%;
+    height: 60px;
+}
+#head{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-family: ProximaNovaRegular, Arial, sans-serif;
+    font-size: 14px;
+    color: #55565a;
+    line-height: 24px;
+    font-weight: 300;
+    font-style: normal;
+   
+   
+}
+span{
+    margin: auto;
+    text-align: center;
+    text-decoration: underline;
+    font-family:GothamBold, "Arial Sans-Serif";
+    font-size: 14px;
+    color: #55565a;
+    font-weight: bold;
+    line-height: 24px;
+    font-weight: 600;
+    font-style: normal;
+    padding-left: 7px;
+
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    font-family: ProximaNovaRegular, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #272829;
+}
+#navbar>div>a{
+    text-decoration: none;
+    color: #272829;
+}
+#login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+#login>div>input{
+    width: 50px;
+    height: 20px;
+    padding: 2px;
+    border: none;
+    position: relative;
+}
+#icon{
+ font-size: 15px;
+ font-style: normal;
+}
+.fa-solid{
+    padding-right: 40px;
+}
+#lang{
+    border: none;
+    width: 90px;
+    appearance: none;
+    font-size: 16px;
+}
+#rf{
+    font-size: 20px;
+    padding-left: 180px;
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 500;
+}
+#main{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: auto;
+    height: 60px;
+    align-items: center;
+    font-size: 12px;
+    font-family: ProximaNovaRegular, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    color: #222222;
+}
+
+#footer{
+    display: flex;
+    gap: 140px;
+    font-family: ProximaNovaRegular, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 24px;
+    color: #222222;
+    font-size: 12px;
+    margin-top: 20px;
+}
+#img1{
+    background-image: url("https://www.rodanandfields.com/en-us/medias/ITFG-HP-BANNER-DESKTOP.jpg?context=bWFzdGVyfHJvb3R8MTY2ODQzMnxpbWFnZS9qcGVnfGgwOS9oN2MvMTUxMjY0ODI0MTk3NDIuanBnfDZkNTUyZTcwYjE0NzEwZTM1ZDFjNzgzM2VjMWMyZTA5ZjMwMmFlNTg1YjAzYzIwMzExZmFlOWMyOTMxMDU2MTI");
+    width: 100%;
+    background-size: cover;
+    height: 540px;
+}
+#img1>div>h1{
+    width: 20%;
+    text-align: left;
+    padding: 90px 70px;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 300;
+    color: #222222;
+    line-height: 48px;
+    font-family: RFFontRoman, Arial, sans-serif;
+    margin-bottom: -80px;
+}
+#img1>div>p{
+    width: 20%;
+   padding-left: 70px;
+    font-family: ProximaNovaLight, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+}
+#img1>div>.star{
+    width: 19%;
+   padding-left: 70px;
+    font-family: ProximaNovaLight, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #5a5a5a;
+}
+.btn{
+    margin-left: 70px;
+    width: 20%;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.btn>a{
+    color: #222222;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial ;
+}
+
+#shopBest{
+    text-align: end;
+    margin-top: 15px;
+    padding-right: 27px;
+  
+}
+#shopBest>a{
+    color: #222222;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#f_icon{
+    display: flex;
+    gap: 50px;
+    font-size: 24px;
+    font-family: randf-icons;
+}
+#fh1{
+    font-weight: 50;
+    font-family: RFFontRoman, Arial, sans-serif;
+    font-size: 24px;
+}
+#footer2{
+    display: flex;
+    gap: 20px;
+    font-size: 11px;
+    line-height: 24px;
+    color: #808080;
+    font-style: normal;
+    font-family: ProximaNovaRegular, Arial, sans-serif;
+    font-weight: 100;
+}
+/* ------ */
+#signIn{
+    position: relative;
+}
+#form{
+    position: absolute;
+    width: 300px;
+    height: 230px;
+    right: 0px;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+    line-height: 18px;
+    font-size: 12px;
+    box-shadow:rgba(0, 0,0, 0.35) 0px 5px 15px ;
+
+}
+
+#form>input{
+    width: 100%;
+    height: 30px;
+    border-radius:3px;
+    border: 1px solid black;
+}
+#fp{
+    text-decoration: none;
+}
+#pas{
+    display: flex;
+    justify-content: space-between;
+}
+#form>p{
+    width: 100%;
+    text-align: center;
+}
+#form>label>span{
+    font-size: 12px;
+}
+#form>#btn{
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 100%;
+    border-radius: 10px;
+}
+/* ------ */
+#shop{
+    position: relative;
+}
+#showF{
+    position: fixed;
+    left:0px;
+    right: 0px;
+    height: 360px;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+    line-height: 18px;
+    font-size: 10px;
+    box-shadow:rgba(0, 0,0, 0.35) 0px 5px 15px ;
+}
+#show_flex{
+    display: flex;
+    justify-content: space-evenly
+}
+/* ------ */
+#featured{
+position: relative;
+}
+#infeat{
+    position: fixed;
+    left:0px;
+    right: 0px;
+    height: 150px;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+    line-height: 18px;
+    font-size: 10px;
+    box-shadow:rgba(0, 0,0, 0.35) 0px 5px 15px ;
+}
+#infeat>p{
+    padding-left: 510px;
+}
+/* ---- */
+#story{
+    position: relative;
+    }
+#instory{
+    position: fixed;
+    left:0px;
+    right: 0px;
+    height: 150px;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+    line-height: 18px;
+    font-size: 10px;
+    box-shadow:rgba(0, 0,0, 0.35) 0px 5px 15px ;
+}
+#instory>p{
+    padding-left: 620px;
+}
+    #slider1{
+        margin-top: 15px;
+    background-color: #f7f4ef ;
+     width: 100%;
+    height: 540px;
+ background-image: url("https://www.rodanandfields.com/en-us/medias/Best-Sellers-Image-Desktop.jpg?context=bWFzdGVyfHJvb3R8NjA5MTd8aW1hZ2UvanBlZ3xoOTcvaGNkLzEyODg5MTg3ODExMzU4LmpwZ3w2ZGZjZGYxNzg4ZDY2ODI2NzQyZTMyNGI2YmExYmRkNGNjYTBkNGI4MzE5OTIwM2M4M2Q1MGZlMmY1YmFjMDJk");
+ 
+    }
+   
+    #slider1>h1{
+        width: 10%;
+        padding-left:  600px;
+        padding-top: 30px;
+       
+    }
+    #shopB{
+        padding-left: 600px;
+        position: absolute;
+        margin-top: 40px;
+        color: #222222;
+        
+    }
+/* show all product */
+#showAll{
+    background-color: #f7f4ef ;
+    width: 100%;
+    height: 650px;
+}
+#showAll>h1{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+    font-family: RFFontRoman, Arial, sans-serif;
+    font-style: italic;
+   
+    line-height: 51px;
+    font-weight: 300;
+    color: #222222;
+}
+#showP{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 20px;
+    padding-top: 30px;
+   
+
+}
+#showP>div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 15px;
+}
+#showP>div>img{
+    width: 100%;
+    height: 200px;
+}
+#showP>div>h1{
+    font-size: 12px;
+    text-align: center;
+    font-family: ProximaNovaRegular, Arial, sans-serif;
+    line-height: 21px;
+    font-weight: 600;
+    color: #222222;
+}
+#btnS{
+    margin-top: 70px;
+    width: 300px;
+    height: 50px;
+    margin-left: 550px;
+    
+}
+#btnS>a{
+    text-decoration: none;
+    color: #222222;
+    font-size: 20px;
+    font-weight: 100;
+line-height: 20px;
+}
+/* -- */
+#eyeCream{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin: auto;
+
+}
+.eye{
+    display: flex;
+    background-color: #f4efe7;
+    width: 50%;
+}
+.eye>div>img{
+    width: 400px;
+    height: 400px;
+}
+.eye>div>h1{
+    font-size: 32px;
+    padding-left: 40px;
+    padding-top: 20px;
+
+}
+.eye>div>p{
+    padding-left: 40px;
+    margin-top: 50px;
+}
+#eyeCream>div:nth-child(2){
+    background-color: #cde2c7;
+}
+#a1{
+    padding-left: 40px;
+   font-size: 24px;
+   color: #222222;
+}
+#derm{
+    display: grid;
+    background-color: #f8f8f8;
+    margin-top: 50px;
+    height: 500px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    margin: auto;
+    align-items: center;
+    gap: 10px;
+    
+ 
+}
+#derm>div{
+    width: 90%;
+    margin: auto;
+}
+.derm1>img{
+width: 300px;
+}
+.derm1>h3{
+    padding-left: 70px;
+}
+.derm1>p{
+    text-align: center;
+    width: 60%;
+}
+.derm1>a{
+    padding-left: 50px;
+    color: black;
+}
+#desc{
+    background-color: #e1eaf1;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+#desc>div{
+    width: 70%;
+    background-color: white;
+    display: flex;
+    margin: auto;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#desc>div>div>h3{
+width: 80%;
+text-align: center;
+font-size: 24px;
+font-weight: 100;
+font-style: normal;
+}
+#desc>div>div>p{
+    font-size: 14px;
+}
+#desc>div>div>button{
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

@@ -1,0 +1,101 @@
+#textCon>h1{
+    text-align: center;
+    font-size: 30px;
+    line-height: 38px;
+    color: #222222;
+    font-weight: 300;
+    font-style: normal;
+    font-family: RFFontRoman, Arial, sans-serif;
+
+}
+#textCon>p{
+    text-align: center;
+    font-size: 16px;
+    margin: auto;
+    width: 50%;
+    line-height: 30px;
+    color: #222222;
+    font-weight: 100;
+    font-style: normal;
+    font-family: RFFontRoman, Arial, sans-serif;
+}
+#box{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+
+}
+.box1{
+    border: 1px solid black;
+    width: 45%;
+    height: 300px;
+    margin: auto;
+}
+.box1>h1{
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+font-family: ProximaNovaMedium, Arial, sans-serif;
+line-height: 26px;
+color: #222222;
+text-align: center;
+padding-top: 20px;
+}
+.box1>p{
+    font-size: 14px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+font-style: normal;
+font-weight: 500;
+font-family: ProximaNovaMedium, Arial, sans-serif;
+line-height: 26px;
+color: #222222;
+}
+.box1>input{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+#name{
+ width: 80%;
+margin: auto;
+margin-top:40px ;
+border-top: 0px ;
+border-left: 0px ;
+border-right:0px ;
+border-bottom: 1px solid #222222;
+
+}
+.box1>button{
+    width: 82%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+font-weight: 100;
+border: none;
+}
+.box1>label{
+    padding-left: 45px;
+    line-height: 0px;
+    color: #adadad;
+    padding-top: 5px;
+}
+#zip{
+    width: 80%;
+margin: auto;
+margin-top:40px ;
+border-top: 0px ;
+border-left: 0px ;
+border-right:0px ;
+border-bottom: 1px solid #222222;
+line-height: 0px;
+}
